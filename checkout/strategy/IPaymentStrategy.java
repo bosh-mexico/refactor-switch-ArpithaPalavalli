@@ -1,5 +1,5 @@
 package checkout.strategy;
 
-public interface PaymentStrategy {
+public interface IPaymentStrategy {
     String process(double amount);
 }
